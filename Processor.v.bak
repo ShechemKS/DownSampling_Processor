@@ -1,0 +1,184 @@
+// Processor
+
+module Processor(	input clock,
+						input [7:0] dm_out,
+						input [19:0] cm_out,
+						input [31:0] im_out,
+						input [1:0] status,
+						output reg dm_r, dm_wr, cm_r,
+						output reg im_r,
+						output [7:0] dm_in,
+						output [9:0] pc_out,
+						output [19:0] mar_dm,
+						output [2:0] mar_cm,
+						output end_process,
+						output [7:0] c);
+						
+	//assign c[7:0] = MAR_Data;
+	assign c[7:0] = AC_Data;
+	
+	wire [2:0] alu_op;
+	wire [31:0] alu_out;
+	wire z, n;
+	
+	wire [31:0] reg1_out, reg2_out, reg3_out;
+	wire [31:0] sor_out, dstr_out, coun_out;
+	wire [31:0] ac_out, mar_out;
+	
+	wire [31:0] ir_aout;
+	wire [31:0] ir_bout; 
+		
+	wire [3:0] c_en;
+	wire [2:0] a_en, b_en;//MAR_Data;
+	wire [4:0] inc_en;
+	wire [3:0] mem_en;
+	//wire [7:0] MAR_Data;
+	wire [7:0] AC_Data;
+	
+	wire [31:0] abus_out, bbus_out;
+	wire [5:0] rst, dec_out; 
+	
+	reg1 reg_1(	.cbus_out(alu_out), 
+					.clock(clock), 
+					.cbus_en(c_en), 
+					.bbus_en(b_en), 
+					.bbus_in(reg1_out));
+					
+	reg2 reg_2(	.cbus_out(alu_out), 
+					.clock(clock), 
+					.cbus_en(c_en), 
+					.bbus_en(b_en), 
+					.bbus_in(reg2_out));
+					
+	reg3 reg_3(	.cbus_out(alu_out), 
+					.clock(clock), 
+					.cbus_en(c_en), 
+					.bbus_en(b_en), 
+					.bbus_in(reg3_out));
+					
+	dstr dst_r(	.cbus_out(alu_out), 
+					.abus_en(a_en), 
+					.cbus_en(c_en), 
+					.rst(rst[3]), 
+					.inc_en(inc_en[3]), 
+					.clock(clock), 
+					.abus_in(dstr_out));
+					
+	sor  so_r(	.cbus_out(alu_out), 
+					.abus_en(a_en), 
+					.cbus_en(c_en), 
+					.rst(rst[2]), 
+					.inc_en(inc_en[2]), 
+					.clock(clock), 
+					.abus_in(sor_out));
+					
+	coun coun_r(	.abus_en(a_en), 
+						.rst(rst[4]), 
+						.inc_en(inc_en[4]), 
+						.clock(clock), 
+						.abus_in(coun_out));
+						
+	pc   pc_r(	.cbus_out(alu_out), 
+					.im_r(mem_en[3]), 
+					.inc_en(inc_en[0]),
+					.rst(rst[5]),
+					.clock(clock), 
+					.cbus_en(c_en),
+					.status(status),
+					.im_addr(pc_out));
+					
+	ac   ac_r(	.cbus_out(alu_out), 
+					.dm_out(dm_out), 
+					.cm_out(cm_out),
+					.dm_wr(mem_en[0]), 
+					.rst(rst[0]), 
+					.clock(clock), 
+					.dm_r(mem_en[1]), 
+					.cm_r(mem_en[2]),
+					.abus_en(a_en), 
+					.cbus_en(c_en), 
+					.abus_in(ac_out),
+					.dat(AC_Data),
+					.dm_in(dm_in));
+					
+	ir   ir_r(	.im_out(im_out), 
+					.abus_en(a_en), 
+					.bbus_en(b_en), 
+					.im_r(mem_en[3]), 
+					.clock(clock), 
+					.bbus_in(ir_bout), 
+					.abus_in(ir_aout));
+					
+	mar  ma_r(	.cbus_out(alu_out), 
+					.abus_en(a_en), 
+					.cbus_en(c_en), 
+					.dm_r(mem_en[1]), 
+					.inc_en(inc_en[1]), 
+					.rst(rst[1]), 
+					.clock(clock), 
+					.dm_wr(mem_en[0]), 
+					.dm_addr(mar_dm), 
+					.abus_in(mar_out), 
+					.cm_addr(mar_cm),
+					//.dat(MAR_Data),
+					.cm_r(mem_en[2]));
+	
+	BusA bus_a(	.clock(clock), 
+					.abus_en(a_en), 
+					.ir(ir_aout), 
+					.mar(mar_out), 
+					.sor(sor_out), 
+					.dstr(dstr_out), 
+					.coun(coun_out), 
+					.ac(ac_out), 
+					.abus_out(abus_out));
+					
+	BusB bus_b(	.clock(clock), 
+					.bbus_en(b_en), 
+					.reg1(reg1_out), 
+					.reg2(reg2_out), 
+					.reg3(reg3_out), 
+					.ir(ir_bout), 
+					.bbus_out(bbus_out));
+	
+	alu  alu1(	.abus_out(abus_out), 
+					.bbus_out(bbus_out), 
+					.alu_op(alu_op), 
+					.clock(clock), 
+					.cbus_in(alu_out), 
+					.n(n), 
+					.z(z));
+
+	decoder dcd(.instruction(im_out), .uAdr(dec_out)); 
+	
+	controller ctrl(	.clock(clock), 
+							.uAdr(dec_out), 
+							.n(n), 
+							.z(z), 
+							.status(status), 
+							.instruction(im_out), 
+							.alu_op(alu_op), 
+							.abus_en(a_en), 
+							.bbus_en(b_en), 
+							.mem_en(mem_en), 
+							.cbus_en(c_en), 
+							.reset(rst), 
+							.inc_en(inc_en), 
+							.end_process(end_process)); 
+	
+	always @(mem_en)
+		
+		if (status == 2'b01)
+			begin
+				dm_wr <= mem_en[0];
+				dm_r <= mem_en[1];
+				cm_r <= mem_en[2];
+				im_r <= mem_en[3];
+			end
+			
+	always @(c_en)
+		begin
+			$display("c_bus = %d", alu_out);
+		end
+endmodule
+			

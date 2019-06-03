@@ -1,0 +1,27 @@
+module clockDiv(inclk,en,outclk);
+	parameter max = 25'd25000000;
+	input inclk,en;
+	output reg outclk = 1;
+	
+	reg [24:0] count = 0;
+	
+	always @(posedge inclk)
+		begin
+			if (en)
+				begin
+					if (count == max)
+						begin
+							outclk = ~outclk;
+							count = 0;
+						end
+					else
+						begin
+							count = count+1;
+						end
+				end
+			else
+				begin
+					outclk = 0;
+				end
+		end
+endmodule 

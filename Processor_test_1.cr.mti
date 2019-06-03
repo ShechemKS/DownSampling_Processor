@@ -1,0 +1,262 @@
+{D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/slowclock.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/slowclock.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module slowclock
+
+Top level modules:
+	slowclock
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/reg3.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/reg3.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module reg3
+
+Top level modules:
+	reg3
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/data_memory.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/data_memory.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module data_memory
+
+Top level modules:
+	data_memory
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/test_top.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/test_top.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module testtop
+
+Top level modules:
+	testtop
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/alu.v} {1 {vlog -work work -stats=none {D:\Shechem\Documents\OneDrive\Documents\Semester 5\Circuit and System Design\DownSampler\ISA\Processor_Test\alu.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/testpc.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/testpc.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module testpc
+
+Top level modules:
+	testpc
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/test_sor.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/test_sor.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module test_sor
+
+Top level modules:
+	test_sor
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/mux_dataout.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/mux_dataout.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module data_out
+
+Top level modules:
+	data_out
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/ac.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/ac.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ac
+
+Top level modules:
+	ac
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/d_memory.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/d_memory.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module d_memory
+
+Top level modules:
+	d_memory
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/dram.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/dram.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dram
+
+Top level modules:
+	dram
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/dstr.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/dstr.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dstr
+
+Top level modules:
+	dstr
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/receiver.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/receiver.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module receiver
+
+Top level modules:
+	receiver
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/ReadBus.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/ReadBus.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module BusA
+-- Compiling module BusB
+
+Top level modules:
+	BusA
+	BusB
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/Processor.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/Processor.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Processor
+
+Top level modules:
+	Processor
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/mar.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/mar.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mar
+
+Top level modules:
+	mar
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/buadrate.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/buadrate.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module baudrate
+
+Top level modules:
+	baudrate
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/mux_dmin.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/mux_dmin.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module data_in
+
+Top level modules:
+	data_in
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/top_processor.v} {1 {vlog -work work -stats=none {D:\Shechem\Documents\OneDrive\Documents\Semester 5\Circuit and System Design\DownSampler\ISA\Processor_Test\top_processor.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module top_processor
+
+Top level modules:
+	top_processor
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/ir.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/ir.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ir
+
+Top level modules:
+	ir
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/pc.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/pc.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/cram.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/cram.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cram
+
+Top level modules:
+	cram
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/test_controller.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/test_controller.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module test_controler
+
+Top level modules:
+	test_controler
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/tx_addr_reg.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/tx_addr_reg.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tx_addr
+
+Top level modules:
+	tx_addr
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/sor.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/sor.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sor
+
+Top level modules:
+	sor
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/testdram.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/testdram.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module testdram
+
+Top level modules:
+	testdram
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/rx_addr.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/rx_addr.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module rx_address
+
+Top level modules:
+	rx_address
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/controller.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/controller.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/coun.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/coun.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module coun
+
+Top level modules:
+	coun
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/transmitter.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/transmitter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module transmitter
+
+Top level modules:
+	transmitter
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/mux_dmaddr.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/mux_dmaddr.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dm_addr
+
+Top level modules:
+	dm_addr
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/tb.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/decoder.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/decoder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decoder
+
+Top level modules:
+	decoder
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/reg1.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/reg1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module reg1
+
+Top level modules:
+	reg1
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/dram_bb.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/dram_bb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dram
+
+Top level modules:
+	dram
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/reg2.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/reg2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module reg2
+
+Top level modules:
+	reg2
+
+} {} {}} {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/main_controller.v} {1 {vlog -work work -stats=none {D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Test/main_controller.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module main_control
+
+Top level modules:
+	main_control
+
+} {} {}}

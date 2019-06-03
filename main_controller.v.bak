@@ -1,0 +1,100 @@
+module main_control( input clock,
+							input end_receive,
+							input end_process,
+							input end_transmit, 
+							input begin_process,
+							input begin_transmit, 
+							output reg [1:0] status,
+							output reg g1, g2, g3,
+							output reg s0, s1, s2, s3);
+							
+							
+	reg [1:0] p_stat = 2'b00;
+	reg [1:0] n_stat = 2'b00;
+
+	parameter 
+	receive = 2'b00,
+	process = 2'b01,
+	transmit = 2'b10,
+	finish = 2'b11;
+	
+	always @(posedge clock)
+	begin
+		if (begin_process)
+			g1 <= 1;
+		if (begin_transmit)
+			g2 <= 1;
+		if (end_receive)
+			g3 <= 1; 
+	end
+	
+	initial begin 
+		g1 <= 0;
+		g2 <= 0;
+		g3 <= 0;
+		s0 <= 0;
+		s1 <= 0; 
+		s2 <= 0;
+		s3 <= 0;
+	end
+	
+	always @(posedge clock)
+		p_stat <= n_stat;
+		
+	always @(end_receive or end_process or end_transmit or begin_process or begin_transmit or p_stat)
+		case (p_stat)
+			receive: begin
+				status <= 2'b00;
+				s0 <= 1;
+				s1 <= 0; 
+				s2 <= 0;
+				s3 <= 0;
+				
+				if (end_receive && !end_process && !end_transmit)
+					n_stat <= process;
+				else
+					n_stat <= process;
+				end
+				
+				
+			process: begin
+				status <= 2'b01;
+				s0 <= 1;
+				s1 <= 1; 
+				s2 <= 0;
+				s3 <= 0;
+				
+				if (end_receive && end_process && !end_transmit)
+					n_stat <= transmit;
+				else 
+					n_stat <= process;
+				end
+				
+			transmit: begin
+				status <= 2'b10;
+				s0 <= 1;
+				s1 <= 1; 
+				s2 <= 1;
+				s3 <= 0;
+				
+				if (end_receive && end_process && end_transmit)
+					n_stat <= finish;
+				else 
+					n_stat <= transmit;
+				end
+				
+			finish: begin
+				status <= 2'b11;
+				s0 <= 1;
+				s1 <= 1; 
+				s2 <= 1;
+				s3 <= 1;
+				n_stat <= finish;
+				end
+		endcase 
+	
+	
+
+
+
+endmodule 

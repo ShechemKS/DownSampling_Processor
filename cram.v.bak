@@ -1,0 +1,21 @@
+// Constant Memory
+
+module cram( input clock, cm_r, 
+				 input [2:0] cm_addr, 
+				 output reg [19:0] cm_out);
+				 
+	reg [19:0] memory [7:0];
+	
+	initial begin
+		memory[3] = 20'b00000000000000000000; // first address of source image
+		memory[4] = 20'b01000000000000000000; // first address of destination image 
+		memory[5] = 20'b00110010011010100011; // last address of source image
+		memory[6] = 20'b00000000001001001110; // width of the source image
+	end 
+	
+	always @(negedge clock)
+		begin
+			if (cm_r == 1)
+				cm_out <= memory[cm_addr];
+		end
+endmodule 

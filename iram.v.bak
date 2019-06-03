@@ -1,0 +1,18 @@
+module iram(	input clock, im_r,
+					input [9:0] addr,
+					output reg [31:0] instr_out);
+	
+	reg [31:0] memory [128:0];
+	
+	initial begin
+		$readmemb("Inst_mem.mem", memory);
+	end
+	
+	always @(negedge clock) begin
+	if (im_r==1)
+		instr_out <= memory[addr];
+	else 
+		instr_out <= 32'b0;
+	end
+		
+endmodule	

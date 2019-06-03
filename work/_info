@@ -1,0 +1,811 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/IntelFPGA/QuartusLite
+vac
+Z0 !s110 1559393469
+!i10b 1
+!s100 ]6JT^Td;C7MF1j^cJFn`>1
+I7_Clh`<79n0Kk2zEfVamR1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded
+w1559390762
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/ac.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/ac.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1559393469.000000
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/ac.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/ac.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+valu
+!s110 1559398617
+!i10b 1
+!s100 HHHj]Z>GiZOX^[]5]X;`82
+Ic[<J=_10WZ3EJHEHd7G;k0
+R1
+R2
+w1559398611
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/alu.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/alu.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1559398617.000000
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/alu.v|
+!i113 1
+R5
+R6
+vbaudrate
+R0
+!i10b 1
+!s100 gPGmb`ZYBgmN;ZF9mmlIa3
+IM`:S>PGT=CFDUlO5]RnZn2
+R1
+R2
+w1558605545
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/buadrate.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/buadrate.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/buadrate.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/buadrate.v|
+!i113 1
+R5
+R6
+vBusA
+Z7 !s110 1559393473
+!i10b 1
+!s100 _L4g;BI]z^<MZY80]^1k`1
+IeJWI<BiJg`VdU`11gXYJe0
+R1
+R2
+Z8 w1559388159
+Z9 8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/ReadBus.v
+Z10 FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/ReadBus.v
+L0 3
+R3
+r1
+!s85 0
+31
+Z11 !s108 1559393473.000000
+Z12 !s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/ReadBus.v|
+Z13 !s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/ReadBus.v|
+!i113 1
+R5
+R6
+n@bus@a
+vBusB
+R7
+!i10b 1
+!s100 83M<EE0^?V?YU`1Pc=@6K1
+I@K0NEhMm^M?b<]PP2F03n2
+R1
+R2
+R8
+R9
+R10
+L0 44
+R3
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 1
+R5
+R6
+n@bus@b
+vcontroller
+Z14 !s110 1559393470
+!i10b 1
+!s100 FSiT;YN9iZ:LcfLB_?^P03
+Ij0O5=oiRjUXh@lPHKHi6E3
+R1
+R2
+w1559243145
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/controller.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/controller.v
+L0 3
+R3
+r1
+!s85 0
+31
+Z15 !s108 1559393470.000000
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/controller.v|
+!i113 1
+R5
+R6
+vcoun
+R14
+!i10b 1
+!s100 k>X5T?HNg<;?faVROo^400
+Il:zMJ9OSV0A0@T5BbUoj00
+R1
+R2
+w1559390703
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/coun.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/coun.v
+L0 1
+R3
+r1
+!s85 0
+31
+R15
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/coun.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/coun.v|
+!i113 1
+R5
+R6
+vcram
+R14
+!i10b 1
+!s100 NlKTZI`F`OGjMM8R9dDRY1
+IlT:4alCLPc<dNj4`AOY3_0
+R1
+R2
+w1559297436
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/cram.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/cram.v
+L0 3
+R3
+r1
+!s85 0
+31
+R15
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/cram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/cram.v|
+!i113 1
+R5
+R6
+vd_memory
+R14
+!i10b 1
+!s100 >W27V?Q_?XPfO17DoV^O91
+IOHBGXX8eXb?g<cKbjiJYz3
+R1
+R2
+Z16 w1557636185
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/d_memory.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/d_memory.v
+L0 1
+R3
+r1
+!s85 0
+31
+R15
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/d_memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/d_memory.v|
+!i113 1
+R5
+R6
+vdata_in
+R7
+!i10b 1
+!s100 ^>NP0D7Xa[K;2DU1<hk]o0
+IX2EX=jmm3hg2zhEl@VB_<3
+R1
+R2
+R16
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/mux_dmin.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/mux_dmin.v
+L0 3
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/mux_dmin.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/mux_dmin.v|
+!i113 1
+R5
+R6
+vdata_memory
+Z17 !s110 1559393471
+!i10b 1
+!s100 zEz57Z5`ahJncaTnz4L9K0
+I?P>QLNfOZhfe`K4HU9B=h1
+R1
+R2
+w1559391892
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/data_memory.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/data_memory.v
+L0 1
+R3
+r1
+!s85 0
+31
+R15
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/data_memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/data_memory.v|
+!i113 1
+R5
+R6
+vdata_out
+R7
+!i10b 1
+!s100 V6VXj42OV75E@^zd=2?OX2
+IdH:=Uo1jQ25Jnle:TAh2c2
+R1
+R2
+R16
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/mux_dataout.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/mux_dataout.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/mux_dataout.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/mux_dataout.v|
+!i113 1
+R5
+R6
+vdecoder
+R17
+!i10b 1
+!s100 ]YhLI24A:cCTKe:^T@KRZ1
+I@9XHH`_e1;cU:6i5_ILjJ2
+R1
+R2
+R16
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/decoder.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/decoder.v
+L0 3
+R3
+r1
+!s85 0
+31
+Z18 !s108 1559393471.000000
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/decoder.v|
+!i113 1
+R5
+R6
+vdm_addr
+R7
+!i10b 1
+!s100 Y<ERW>RAn[Te`oO9Q?@SI0
+IY7l];0K64AZ<m>fAP`fV72
+R1
+R2
+R16
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/mux_dmaddr.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/mux_dmaddr.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/mux_dmaddr.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/mux_dmaddr.v|
+!i113 1
+R5
+R6
+vdram
+R17
+!i10b 1
+!s100 gzBHKg@<;SPBhIh1MbY^^0
+I^BKN5gaV_JKlZ8=TZ;BPg1
+R1
+R2
+w1559391034
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/dram_bb.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/dram_bb.v
+L0 34
+R3
+r1
+!s85 0
+31
+R18
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/dram_bb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/dram_bb.v|
+!i113 1
+R5
+R6
+vdstr
+R17
+!i10b 1
+!s100 dEe4abhYFhha7F`ioZ=Yz0
+I:8FUKKXlcP_cj`7VSR4<V3
+R1
+R2
+w1559390818
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/dstr.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/dstr.v
+L0 1
+R3
+r1
+!s85 0
+31
+R18
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/dstr.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/dstr.v|
+!i113 1
+R5
+R6
+vir
+Z19 !s110 1559398313
+!i10b 1
+!s100 94;QFP;@AQWXPYQ35DB9:1
+I=`X0zz:89WYOje>>Cc]2=3
+R1
+R2
+w1559398241
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/ir.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/ir.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z20 !s108 1559398313.000000
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/ir.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/ir.v|
+!i113 1
+R5
+R6
+viram
+Z21 !s110 1559393472
+!i10b 1
+!s100 >Mb?j71TkP06IUcmUd@1F1
+ILj5Jfdc4:c9cBnHk5nUAi2
+R1
+R2
+w1559232976
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/iram.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/iram.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z22 !s108 1559393472.000000
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/iram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/iram.v|
+!i113 1
+R5
+R6
+vmain_control
+R21
+!i10b 1
+!s100 RJC5eY7<Zc^TLG0iXc7:h3
+Ij8H1B]iP1??g:VjET_a?21
+R1
+R2
+w1559298885
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/main_controller.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/main_controller.v
+L0 1
+R3
+r1
+!s85 0
+31
+R22
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/main_controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/main_controller.v|
+!i113 1
+R5
+R6
+vmar
+R21
+!i10b 1
+!s100 :BIK1=W^ZGOEHX5>J=Kbl1
+IJ0oej@[NfiDLPIN1aHdf02
+R1
+R2
+w1559390854
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/mar.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/mar.v
+L0 1
+R3
+r1
+!s85 0
+31
+R22
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/mar.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/mar.v|
+!i113 1
+R5
+R6
+vpc
+R7
+!i10b 1
+!s100 _ozTGNJV2lkil=OPQ@4c52
+I<P=W4>?44b4=`zn87EgLM2
+R1
+R2
+w1559390866
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/pc.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/pc.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/pc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/pc.v|
+!i113 1
+R5
+R6
+vProcessor
+R19
+!i10b 1
+!s100 ?3OGSR68Rg9>>[d27[jbc3
+I`WUG<9zhOUEAfWl6KQ19:0
+R1
+R2
+w1559398308
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/Processor.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/Processor.v
+L0 3
+R3
+r1
+!s85 0
+31
+R20
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/Processor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/Processor.v|
+!i113 1
+R5
+R6
+n@processor
+vreceiver
+Z23 !s110 1559393474
+!i10b 1
+!s100 EN2PS]WjWCQ1mZ=K60Yb`1
+I^o4gU^I@2B2W[mFSVmz<P1
+R1
+R2
+Z24 w1557636186
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/receiver.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/receiver.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/receiver.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/receiver.v|
+!i113 1
+R5
+R6
+vreg1
+R23
+!i10b 1
+!s100 737hzFBCJ`a>D@Z9TlV?[2
+Ig_d8Q^FCTLciK5f?NEVIk1
+R1
+R2
+w1559390873
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/reg1.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/reg1.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z25 !s108 1559393474.000000
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/reg1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/reg1.v|
+!i113 1
+R5
+R6
+vreg2
+R23
+!i10b 1
+!s100 [SDbF[ib<@M3JG=XoXGPF0
+IBP`7?fliKP@Na;mdPd=SA0
+R1
+R2
+w1559390888
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/reg2.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/reg2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R25
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/reg2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/reg2.v|
+!i113 1
+R5
+R6
+vreg3
+R23
+!i10b 1
+!s100 1:d2=Aac1@Ya_e:@zLa`d1
+I`3aAMNgJdCUR;fZAK>V;E3
+R1
+R2
+w1559390921
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/reg3.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/reg3.v
+L0 1
+R3
+r1
+!s85 0
+31
+R25
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/reg3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/reg3.v|
+!i113 1
+R5
+R6
+vrx_address
+R23
+!i10b 1
+!s100 Hj6[=H>23maVhfiKQ1M;N0
+IUe:K[l;_HNS``PV7z6=5D2
+R1
+R2
+R24
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/rx_addr.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/rx_addr.v
+L0 1
+R3
+r1
+!s85 0
+31
+R25
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/rx_addr.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/rx_addr.v|
+!i113 1
+R5
+R6
+vslowclock
+!s110 1559394668
+!i10b 1
+!s100 hVLG:n2b@Go4@ozLz26PG3
+IDWiXaMKR@1gmaRB4EAK1V1
+R1
+R2
+w1559394416
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/slowclock.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/slowclock.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1559394668.000000
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/slowclock.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/slowclock.v|
+!i113 1
+R5
+R6
+vsor
+Z26 !s110 1559393475
+!i10b 1
+!s100 o__S?EnEV8^FUSaJhZ7>]0
+IDe3lgJUBj1NFgcXiKX6:50
+R1
+R2
+w1559391842
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/sor.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/sor.v
+L0 1
+R3
+r1
+!s85 0
+31
+R25
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/sor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/sor.v|
+!i113 1
+R5
+R6
+vtb
+!s110 1559394894
+!i10b 1
+!s100 mAX<AlOQ@PgeI=hEaI^`;3
+IPJ51jdd]6S`H;IReM5ZUY0
+R1
+R2
+w1559394886
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/tb.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1559394894.000000
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/tb.v|
+!i113 1
+R5
+R6
+vtest_controler
+R26
+!i10b 1
+!s100 KL6oeFZ3JSNlOOO=7Db]N2
+I7clbkN0i7eDQ@B09FiI0Z2
+R1
+R2
+R24
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/test_controller.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/test_controller.v
+L0 3
+R3
+r1
+!s85 0
+31
+Z27 !s108 1559393475.000000
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/test_controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/test_controller.v|
+!i113 1
+R5
+R6
+vtest_sor
+R26
+!i10b 1
+!s100 @:2W0A5:Og:]H?@Mcn95A2
+I]AP:VC0LYM4_FS18>GbNL2
+R1
+R2
+R24
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/test_sor.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/test_sor.v
+L0 3
+R3
+r1
+!s85 0
+31
+R27
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/test_sor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/test_sor.v|
+!i113 1
+R5
+R6
+vtestdram
+Z28 !s110 1559393476
+!i10b 1
+!s100 JVni]GA6fY;;Sb]lJADcO2
+I?eenHl3C3TM`=AIDF63623
+R1
+R2
+R24
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/testdram.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/testdram.v
+L0 3
+R3
+r1
+!s85 0
+31
+Z29 !s108 1559393476.000000
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/testdram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/testdram.v|
+!i113 1
+R5
+R6
+vtestpc
+R28
+!i10b 1
+!s100 j7HAja<<G2kEzYmB<7^JX2
+IV0DK4QaKQBe6nmQ;EYTI00
+R1
+R2
+R24
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/testpc.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/testpc.v
+L0 3
+R3
+r1
+!s85 0
+31
+R29
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/testpc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/testpc.v|
+!i113 1
+R5
+R6
+vtesttop
+R26
+!i10b 1
+!s100 AXO=?9CHl=h`NYGkiJDVO0
+IoXoTA;:`XV:gzAKKda]_H2
+R1
+R2
+R24
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/test_top.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/test_top.v
+L0 1
+R3
+r1
+!s85 0
+31
+R27
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/test_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/test_top.v|
+!i113 1
+R5
+R6
+vtop_processor
+!s110 1559394461
+!i10b 1
+!s100 kL`?_OL?BYo8A5lgeU5bi1
+I2A9U]oMPjVi=Ji8KQnIfV3
+R1
+R2
+w1559394359
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/top_processor.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/top_processor.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1559394461.000000
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/top_processor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/top_processor.v|
+!i113 1
+R5
+R6
+vtransmitter
+R28
+!i10b 1
+!s100 0G5k=S0AEhkHU6<5M25S93
+IONkn@dO@SY1bUXn:;DH`o3
+R1
+R2
+Z30 w1557636187
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/transmitter.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/transmitter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R29
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/transmitter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/transmitter.v|
+!i113 1
+R5
+R6
+vtx_addr
+R0
+!i10b 1
+!s100 >zoQfRW]ESI_<O>XlZC1T1
+I`L]B=9^oPEiIgoB[hTa;T1
+R1
+R2
+R30
+8D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/tx_addr_reg.v
+FD:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/tx_addr_reg.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/tx_addr_reg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/DownSampler/ISA/Processor_Reloaded/tx_addr_reg.v|
+!i113 1
+R5
+R6

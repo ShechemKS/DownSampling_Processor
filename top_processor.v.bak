@@ -1,0 +1,220 @@
+module top_processor(	input wire clock, 				
+								input wire data_from_pc, 		 
+								input wire start_process, 
+								input wire start_transmit,
+								input wire rx,rd_clr,
+								output wire rd_rx,
+								output wire tx, tx_busy,
+								output [7:0] LEDR,
+								
+								output endImagereceived,
+								output endProcess,	
+								output wire data_to_pc, 			
+								output wire g1, g2, g3,
+								output wire s00, s01, s02, s03,
+								output clk,
+								output [7:0] s0);
+	
+	
+		
+	// For processor 
+	
+	
+	wire [19:0] cm_out;						
+	wire [7:0] dm_processor;				
+	wire [31:0] im_out;						
+	wire [1:0] status;						
+	wire dm_r, dm_wr, cm_r, im_r;			
+	wire [7:0] ac_out;						
+	wire [9:0] pc_out;
+	wire [7:0] c;
+	wire [2:0] mar_cm;						
+	wire [19:0] mar_dm;						
+	wire end_process;
+	
+	assign clk = slow_clk;
+	assign LEDR = pc_out;
+	assign s0= c;
+	
+	assign endProcess = end_process;	
+					 
+	// Main Controller
+
+	wire end_receive, end_transmit;		// signals to be given by the communication module to change the state
+	reg begin_process, begin_transmit; 	// should be assigned 
+	
+	assign endImagereceived = end_receive ;
+	
+	// Memory DRAM
+	
+	wire [7:0] data_in_com; 				// data to the com module to be transmitted 
+	wire [7:0] dm_in;							// data to the dram
+	wire [7:0] dm_out;
+	
+	// Muxes
+	wire [19:0] tx_dm;						// address from transmitter module to write
+	wire [19:0] dm_addr;						// data memory address ( from processor or from tx_addr)
+	
+	wire [19:0] rx_dm;
+	wire slow_clk;
+	// Tx and Rx
+	wire [7:0] dm_transmitter; 
+	wire tx_en; 
+	wire tx_clk_en, rx_clk_en;
+	//wire tx, tx_busy; 
+	wire [7:0] tx_data;
+	wire [7:0] data_out_rx;					// data from receiver module 
+	wire en_com;								// to enable the communication
+	
+	//assign end_trasnmit = ~tx_busy; 
+	 
+	
+	reg [9:0] process_switch_buffer = 10'd1001;		// waits 1023 clock cycles until the begin_process is being passed to main controller
+	reg [9:0] transmit_switch_buffer = 10'd0;		// waits 1023 clock cycles until the transmit_begin is being passed to main controller
+
+	always @(posedge clock)
+	begin
+		if (start_process )
+		begin
+			if (process_switch_buffer == 10'd1023 )
+			begin
+				process_switch_buffer <= process_switch_buffer ;
+				begin_process <=1;
+			end
+			else
+			begin
+				process_switch_buffer <= process_switch_buffer + 10'd1;
+				begin_process <=0;
+			end
+		end
+		else
+		begin
+			process_switch_buffer <= 10'd1001;
+			begin_process <= 0;
+		end
+	end
+
+	always @(posedge clock)
+	begin
+		
+		if (start_transmit )
+		begin
+			if (transmit_switch_buffer == 10'd1023 )
+			begin
+				transmit_switch_buffer <= transmit_switch_buffer ;
+				begin_transmit <=1;
+			end
+			else
+			begin
+				transmit_switch_buffer <= transmit_switch_buffer + 10'd1;
+				begin_transmit <=0;
+			end
+		end
+		else
+		begin
+			transmit_switch_buffer <= 10'd0;
+			begin_transmit <= 0;
+		end
+	end
+	
+
+
+	cram 			cram1(	.clock(slow_clk), 
+								.cm_r(cm_r), 
+								.cm_addr(mar_cm), 
+								.cm_out(cm_out)); 
+					
+	iram  		iram1(	.clock(slow_clk), 
+								.im_r(im_r), 
+								.addr(pc_out), 
+								.instr_out(im_out)); 
+					
+	Processor 	cpu (		.clock(slow_clk), 
+								.cm_out(cm_out), 
+								.dm_out(dm_processor), 
+								.im_out(im_out), 
+								.status(status), 
+								.dm_r(dm_r), 
+								.im_r(im_r), 
+								.cm_r(cm_r), 
+								.dm_wr(dm_wr), 
+								.dm_in(ac_out), 
+								.pc_out(pc_out), 
+								.mar_dm(mar_dm), 
+								.mar_cm(mar_cm),
+								.end_process(end_process),
+								.c(c));
+					
+	data_memory d_ram (	.clock(slow_clk), 
+								.en_com(en_com), 
+								.tx_en(tx_en), 
+								.status(status), 
+								.dm_wr(dm_wr), 
+								.dm_r(dm_r), 
+								.dram_addr(dm_addr),
+								.data_in(dm_in),
+								.data_out(dm_out),
+								.rx_finish(end_receive)); 
+	
+	main_control mc1(					.clock(slow_clk), 
+								.en_com(en_com),
+								.end_receive(end_receive), 
+								.end_process(end_process), 
+								.end_transmit(end_transmit), 
+								.begin_process(begin_process), 
+								.begin_transmit(begin_transmit), 
+								.status(status), 
+								.g1(g1), .g2(g2), .g3(g3), 
+								.s0(s00), .s1(s01), .s2(s02), .s3(s03)); 
+										
+	dm_addr 		dm_addr_mux (	.from_processor(mar_dm), 
+										.from_rx(rx_dm),
+										.from_tx(tx_dm),
+										.status(status),
+										.data_addr(dm_addr));
+										
+	data_out		data_out_mux ( .from_data_mem(dm_out),//Mux M2
+										.status(status),
+										.to_processor(dm_processor),
+										.to_tx(dm_transmitter)); 
+										
+	data_in		data_in_mux (	.from_rx(data_out_rx),    //Mux M1
+										.from_processor(ac_out),
+										.status(status),
+										.data_in(dm_in)); 
+	
+	
+	baudrate 	baudrate1 (	.clk_50m(slow_clk),
+									.Rxclk_en(rx_clk_en),
+									.Txclk_en(tx_clk_en));
+									
+	slowclock clk1 (				.inclk(clock),
+							.outclk(slow_clk),
+							.switch_clock(status));
+
+	tx_addr		txtodm_addr (	.dm_transmit(dm_transmitter), 
+										.clock(slow_clk),
+										.clk_en(tx_en),
+										.tx_busy(tx_busy),
+										.status(status),
+										.rx_finish(end_receive),
+										.tx_addr(tx_dm),
+										.tx_data(tx_data)); 
+	
+	receiver 	rx1(	.Rx(rx),
+							.ready(rd_rx),
+							.ready_clr(rd_clr),
+							.clk_50m(slow_clk),
+							.clken(rx_clk_en), 
+							.data(data_out_rx),
+							.en_com(en_com)); 
+	
+	transmitter tx1(	.data_in(tx_data),
+							.tx_en(tx_en),
+							.clk_50m(slow_clk),
+							.clk_en(tx_clk_en), 
+							.Tx(tx),
+							.Tx_busy(tx_busy)); 
+							
+endmodule 	
+	

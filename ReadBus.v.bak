@@ -1,0 +1,46 @@
+// Bus A and B
+
+module BusA ( 	input clock,
+					input [2:0] abus_en,
+					input [31:0] ir, mar, sor, dstr, coun, ac,
+					output wire [31:0] abus_out);
+	
+	reg [31:0] abus = 0;
+	
+	always @(coun or dstr or sor or mar or ir or ac or abus_en)
+		case(abus_en)
+			3'd1: abus <= sor;
+			3'd2: abus <= dstr;
+			3'd3: abus <= ac;
+			3'd4: abus <= mar;
+			3'd6:	abus <= coun;
+			3'd7: abus <= ir; 
+			
+			default: abus <= 32'b0; 
+		endcase
+	
+	assign abus_out = abus; 
+	
+endmodule
+
+module BusB(	input clock,
+					input [2:0] bbus_en,
+					input [31:0] reg1, reg2, reg3, ir,
+					output wire [31:0] bbus_out);
+	
+	reg [31:0] bbus = 0;
+					
+	always @(reg1 or reg2 or reg3 or ir or bbus_en)
+		case (bbus_en)
+			3'd4: bbus <= reg1;
+			3'd5: bbus <= reg2;
+			3'd6: bbus <= reg3;
+			3'd7: bbus <= ir;
+			
+			default: bbus <= 32'b0;
+		endcase 
+		
+	assign bbus_out = bbus; 
+
+endmodule 			
+			

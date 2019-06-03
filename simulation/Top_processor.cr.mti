@@ -1,0 +1,141 @@
+{C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/ReadBus.v} {0 {vlog -work work -nocovercells {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/ReadBus.v}
+Model Technology ModelSim ALTERA vlog 6.6c Compiler 2010.08 Aug 24 2010
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/reg1.v} {0 {vlog -work work -nocovercells {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/reg1.v}
+Model Technology ModelSim ALTERA vlog 6.6c Compiler 2010.08 Aug 24 2010
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/reg2.v} {0 {vlog -work work -nocovercells {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/reg2.v}
+Model Technology ModelSim ALTERA vlog 6.6c Compiler 2010.08 Aug 24 2010
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/Processor.v} {0 {vlog -work work -nocovercells {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/Processor.v}
+Model Technology ModelSim ALTERA vlog 6.6c Compiler 2010.08 Aug 24 2010
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/mar.v} {0 {vlog -work work -nocovercells {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/mar.v}
+Model Technology ModelSim ALTERA vlog 6.6c Compiler 2010.08 Aug 24 2010
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/reg3.v} {0 {vlog -work work -nocovercells {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/reg3.v}
+Model Technology ModelSim ALTERA vlog 6.6c Compiler 2010.08 Aug 24 2010
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/iram.v} {0 {vlog -work work -nocovercells {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/iram.v}
+Model Technology ModelSim ALTERA vlog 6.6c Compiler 2010.08 Aug 24 2010
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/top_processor.v} {0 {vlog -work work -nocovercells {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/top_processor.v}
+Model Technology ModelSim ALTERA vlog 6.6c Compiler 2010.08 Aug 24 2010
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/tx_addr_reg.v} {0 {vlog -work work -nocovercells {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/tx_addr_reg.v}
+Model Technology ModelSim ALTERA vlog 6.6c Compiler 2010.08 Aug 24 2010
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/sor.v} {0 {vlog -work work -nocovercells {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/sor.v}
+Model Technology ModelSim ALTERA vlog 6.6c Compiler 2010.08 Aug 24 2010
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/ac.v} {0 {vlog -work work -nocovercells {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/ac.v}
+Model Technology ModelSim ALTERA vlog 6.6c Compiler 2010.08 Aug 24 2010
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/d_memory.v} {0 {vlog -work work -nocovercells {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/d_memory.v}
+Model Technology ModelSim ALTERA vlog 6.6c Compiler 2010.08 Aug 24 2010
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/dstr.v} {0 {vlog -work work -nocovercells {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/dstr.v}
+Model Technology ModelSim ALTERA vlog 6.6c Compiler 2010.08 Aug 24 2010
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/receiver.v} {0 {vlog -work work -nocovercells {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/receiver.v}
+Model Technology ModelSim ALTERA vlog 6.6c Compiler 2010.08 Aug 24 2010
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/transmitter.v} {0 {vlog -work work -nocovercells {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/transmitter.v}
+Model Technology ModelSim ALTERA vlog 6.6c Compiler 2010.08 Aug 24 2010
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/decoder.v} {0 {vlog -work work -nocovercells {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/decoder.v}
+Model Technology ModelSim ALTERA vlog 6.6c Compiler 2010.08 Aug 24 2010
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/buadrate.v} {0 {vlog -work work -nocovercells {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/buadrate.v}
+Model Technology ModelSim ALTERA vlog 6.6c Compiler 2010.08 Aug 24 2010
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/main_controller.v} {0 {vlog -work work -nocovercells {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/main_controller.v}
+Model Technology ModelSim ALTERA vlog 6.6c Compiler 2010.08 Aug 24 2010
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/mux_dmin.v} {0 {vlog -work work -nocovercells {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/mux_dmin.v}
+Model Technology ModelSim ALTERA vlog 6.6c Compiler 2010.08 Aug 24 2010
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/data_memory.v} {0 {vlog -work work -nocovercells {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/data_memory.v}
+Model Technology ModelSim ALTERA vlog 6.6c Compiler 2010.08 Aug 24 2010
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/alu.v} {0 {vlog -work work -nocovercells {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/alu.v}
+Model Technology ModelSim ALTERA vlog 6.6c Compiler 2010.08 Aug 24 2010
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/ir.v} {0 {vlog -work work -nocovercells {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/ir.v}
+Model Technology ModelSim ALTERA vlog 6.6c Compiler 2010.08 Aug 24 2010
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/cram.v} {0 {vlog -work work -nocovercells {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/cram.v}
+Model Technology ModelSim ALTERA vlog 6.6c Compiler 2010.08 Aug 24 2010
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/mux_dataout.v} {0 {vlog -work work -nocovercells {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/mux_dataout.v}
+Model Technology ModelSim ALTERA vlog 6.6c Compiler 2010.08 Aug 24 2010
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/pc.v} {0 {vlog -work work -nocovercells {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/pc.v}
+Model Technology ModelSim ALTERA vlog 6.6c Compiler 2010.08 Aug 24 2010
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/controller.v} {0 {vlog -work work -nocovercells {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/controller.v}
+Model Technology ModelSim ALTERA vlog 6.6c Compiler 2010.08 Aug 24 2010
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/coun.v} {0 {vlog -work work -nocovercells {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/coun.v}
+Model Technology ModelSim ALTERA vlog 6.6c Compiler 2010.08 Aug 24 2010
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/mux_dmaddr.v} {0 {vlog -work work -nocovercells {C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/mux_dmaddr.v}
+Model Technology ModelSim ALTERA vlog 6.6c Compiler 2010.08 Aug 24 2010
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}}

@@ -1,0 +1,580 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor/simualtion
+vac
+Z0 !s110 1557509657
+!i10b 1
+!s100 9P=7E`TC_Q>MDZL;`;_jF3
+I@5^3zCEAR91b2^RgUoFaj2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/simulation
+w1556966609
+8C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/ac.v
+FC:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/ac.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1557509657.000000
+!s107 C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/ac.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/ac.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+valu
+R0
+!i10b 1
+!s100 H15?^YP:Ad_GMge7ojHXE0
+IANP?fl]U5]]@[^:R7Wd;g0
+R1
+R2
+w1556101981
+8C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/alu.v
+FC:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/alu.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/alu.v|
+!i113 1
+R5
+R6
+vbaudrate
+R0
+!i10b 1
+!s100 jOBL5CQO3X6fT_`fCZ>bk1
+I_6ChP0[XBf8zaW2i?Ua4o2
+R1
+R2
+w1556106147
+8C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/buadrate.v
+FC:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/buadrate.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/buadrate.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/buadrate.v|
+!i113 1
+R5
+R6
+vBusA
+Z7 !s110 1557509660
+!i10b 1
+!s100 ^R53_zYlOYB5I12QfYKV23
+IQ;1<mCDbd:BoZkQ[_NUD@1
+R1
+R2
+Z8 w1556475368
+Z9 8C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/ReadBus.v
+Z10 FC:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/ReadBus.v
+L0 3
+R3
+r1
+!s85 0
+31
+Z11 !s108 1557509660.000000
+Z12 !s107 C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/ReadBus.v|
+Z13 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/ReadBus.v|
+!i113 1
+R5
+R6
+n@bus@a
+vBusB
+R7
+!i10b 1
+!s100 bR_HM<ciB40=>F0`=j6je3
+IzeCe7AZkZAkzKUbQg9Kfn0
+R1
+R2
+R8
+R9
+R10
+L0 26
+R3
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 1
+R5
+R6
+n@bus@b
+vcontroller
+R0
+!i10b 1
+!s100 ^oQjG6fSXIc4YBiEJ;K6d1
+I=RXGWe6GZz0;SKJcbUGlR2
+R1
+R2
+w1557013407
+8C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/controller.v
+FC:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/controller.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/controller.v|
+!i113 1
+R5
+R6
+vcoun
+Z14 !s110 1557509658
+!i10b 1
+!s100 =gbSWURb?;N_@HlZA;BCH2
+IfQz48@IEZg3QzG5GCQPFb2
+R1
+R2
+w1556806131
+8C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/coun.v
+FC:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/coun.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/coun.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/coun.v|
+!i113 1
+R5
+R6
+vcram
+R14
+!i10b 1
+!s100 IZA0aaVlaB;M^bg_PP=l52
+IAK=d0:84DY:h[zi2IO>bd3
+R1
+R2
+w1556968181
+8C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/cram.v
+FC:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/cram.v
+L0 3
+R3
+r1
+!s85 0
+31
+Z15 !s108 1557509658.000000
+!s107 C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/cram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/cram.v|
+!i113 1
+R5
+R6
+vd_memory
+R14
+!i10b 1
+!s100 >W27V?Q_?XPfO17DoV^O91
+IWD26fzl>N5Rz52M?NEN:90
+R1
+R2
+w1557263743
+8C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/d_memory.v
+FC:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/d_memory.v
+L0 1
+R3
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/d_memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/d_memory.v|
+!i113 1
+R5
+R6
+vdata_in
+R7
+!i10b 1
+!s100 ^>NP0D7Xa[K;2DU1<hk]o0
+I@Pz<VG:n0ZRzWIe7W:RLm3
+R1
+R2
+w1557012635
+8C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/mux_dmin.v
+FC:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/mux_dmin.v
+L0 3
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/mux_dmin.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/mux_dmin.v|
+!i113 1
+R5
+R6
+vdata_memory
+R14
+!i10b 1
+!s100 bPg`2bcFIA>^zo3VlQJYE1
+In?L:>Fe;=^_jPa0<eeQP30
+R1
+R2
+w1557509025
+8C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/data_memory.v
+FC:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/data_memory.v
+L0 1
+R3
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/data_memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/data_memory.v|
+!i113 1
+R5
+R6
+vdata_out
+R7
+!i10b 1
+!s100 V6VXj42OV75E@^zd=2?OX2
+I9g3^g462=>?G5NhSE_<Hi1
+R1
+R2
+w1557508301
+8C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/mux_dataout.v
+FC:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/mux_dataout.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/mux_dataout.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/mux_dataout.v|
+!i113 1
+R5
+R6
+vdecoder
+R14
+!i10b 1
+!s100 M>C6H@CZZi;9QzDEQWT]<3
+IV>aIi9QFKYUbH>d6IN5g62
+R1
+R2
+w1557013340
+8C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/decoder.v
+FC:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/decoder.v
+L0 3
+R3
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/decoder.v|
+!i113 1
+R5
+R6
+vdm_addr
+R7
+!i10b 1
+!s100 dDPggMDVNjlbo;Uj]F<Lh1
+I14RGVE?4FjA1?26BU3?OT1
+R1
+R2
+w1557264654
+8C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/mux_dmaddr.v
+FC:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/mux_dmaddr.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/mux_dmaddr.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/mux_dmaddr.v|
+!i113 1
+R5
+R6
+vdstr
+Z16 !s110 1557509659
+!i10b 1
+!s100 4k<H<Ii=En39_efG`4QBJ0
+IUg5zIKLA:z;0Dd2:c:fGL1
+R1
+R2
+w1556807073
+8C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/dstr.v
+FC:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/dstr.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z17 !s108 1557509659.000000
+!s107 C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/dstr.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/dstr.v|
+!i113 1
+R5
+R6
+vir
+R16
+!i10b 1
+!s100 KCln9<@Ti`CJk2V@kClL72
+IYR3h4MOTMl5WgHdDHHX8>1
+R1
+R2
+w1556806155
+8C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/ir.v
+FC:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/ir.v
+L0 1
+R3
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/ir.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/ir.v|
+!i113 1
+R5
+R6
+viram
+R16
+!i10b 1
+!s100 b?bG`T2@RRL:CXnDb5KQg2
+IA8Zeo^ED0COzT<KV[k2?^1
+R1
+R2
+w1556965377
+8C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/iram.v
+FC:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/iram.v
+L0 1
+R3
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/iram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/iram.v|
+!i113 1
+R5
+R6
+vmain_control
+R16
+!i10b 1
+!s100 ;71ze[IV^2MnW=Qnzm@7S0
+IS1YC>[=z2aaKH@Ub36Q[k2
+R1
+R2
+w1557508532
+8C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/main_controller.v
+FC:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/main_controller.v
+L0 1
+R3
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/main_controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/main_controller.v|
+!i113 1
+R5
+R6
+vmar
+R16
+!i10b 1
+!s100 HPK0aEhQQ3fM0UB4a37@H0
+IMAB]90kZ[;md0Vf;<JR3m1
+R1
+R2
+w1556965320
+8C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/mar.v
+FC:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/mar.v
+L0 1
+R3
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/mar.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/mar.v|
+!i113 1
+R5
+R6
+vpc
+R7
+!i10b 1
+!s100 5AXeo60S7PYKEaVzGA``j3
+IQe=DVWVm8a[NNjbW1RAC93
+R1
+R2
+w1556821494
+8C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/pc.v
+FC:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/pc.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/pc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/pc.v|
+!i113 1
+R5
+R6
+vProcessor
+R7
+!i10b 1
+!s100 alSjaL?o4zb^D<H@V<^`n3
+IV`ombl6Jl2Ph=c<ciS@Jz3
+R1
+R2
+w1556979210
+8C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/Processor.v
+FC:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/Processor.v
+L0 3
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/Processor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/Processor.v|
+!i113 1
+R5
+R6
+n@processor
+vreg1
+Z18 !s110 1557509661
+!i10b 1
+!s100 =3jVQO]T3QTAM^Lnf[feL0
+I9lQEYB>]BZegi^bK^EkTM1
+R1
+R2
+w1556805997
+8C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/reg1.v
+FC:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/reg1.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z19 !s108 1557509661.000000
+!s107 C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/reg1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/reg1.v|
+!i113 1
+R5
+R6
+vreg2
+R18
+!i10b 1
+!s100 GNOcJj@Jz>m4Ki3LW=j8Z1
+I6G>WX:4]<gUfc7b0lEi]]0
+R1
+R2
+w1556806026
+8C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/reg2.v
+FC:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/reg2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/reg2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/reg2.v|
+!i113 1
+R5
+R6
+vreg3
+R18
+!i10b 1
+!s100 I_djHcG@R0A8[EP:ChlYE3
+I5;Ge]8Xf]lMK@jWEBIR5P2
+R1
+R2
+w1556806070
+8C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/reg3.v
+FC:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/reg3.v
+L0 1
+R3
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/reg3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/reg3.v|
+!i113 1
+R5
+R6
+vsor
+R18
+!i10b 1
+!s100 bli`Pob3WeXo^Mb_QDMJa1
+IiFfDzbZJ8TDbYLL]VPS[a0
+R1
+R2
+w1556805657
+8C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/sor.v
+FC:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/sor.v
+L0 1
+R3
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/sor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/sor.v|
+!i113 1
+R5
+R6
+vtransmitter
+Z20 !s110 1557509662
+!i10b 1
+!s100 0G5k=S0AEhkHU6<5M25S93
+I0U_h3?01K^AKjoUnI?b^l0
+R1
+R2
+w1557011541
+8C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/transmitter.v
+FC:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/transmitter.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z21 !s108 1557509662.000000
+!s107 C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/transmitter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/transmitter.v|
+!i113 1
+R5
+R6
+vtx_addr
+R20
+!i10b 1
+!s100 6@lQ:DW8g`hoJF@89gkQK0
+IezoX]S;;czL1k;gkbOQ6L3
+R1
+R2
+w1557508170
+8C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/tx_addr_reg.v
+FC:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/tx_addr_reg.v
+L0 1
+R3
+r1
+!s85 0
+31
+R21
+!s107 C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/tx_addr_reg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/kgaya/Desktop/Semester 05/Circuit and System Design/Processor Design/Verilog Implementation/Processor-II/tx_addr_reg.v|
+!i113 1
+R5
+R6

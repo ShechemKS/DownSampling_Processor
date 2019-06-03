@@ -1,0 +1,26 @@
+module pc( 	input [31:0] cbus_out,
+				input im_r, inc_en, clock,
+				input [3:0] cbus_en,
+				output wire [9:0] im_addr);
+	
+	reg [9:0] datain = 10'b0;
+	reg [9:0] dataout = 10'b0;
+	
+	always @(posedge clock)
+		begin
+			if (im_r == 1)
+				dataout <= datain; 
+		end
+		
+	always @(negedge clock)
+		begin
+			if (inc_en)
+				datain <= datain + 1;
+				
+			if (cbus_en == 4'b1110)
+				datain <= cbus_out[9:0];
+		end
+	
+	assign im_addr = dataout; 
+				
+endmodule 
