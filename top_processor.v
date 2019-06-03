@@ -120,12 +120,16 @@ module top_processor(	input wire clock,
 	end
 	
 
-
+/*
 	cram 			cram1(	.clock(slow_clk), 
 								.cm_r(cm_r), 
 								.cm_addr(mar_cm), 
 								.cm_out(cm_out)); 
-					
+*/
+	C_ram 		cram1(.address(mar_cm),
+							.clock(slow_clk),
+							.rden(cm_r),
+							.q(cm_out));				
 	iram  		iram1(	.clock(slow_clk), 
 								.im_r(im_r), 
 								.addr(pc_out), 

@@ -21,7 +21,7 @@ f = open("Data_Mem.mif", "w+")
 f.write("DEPTH = 270000;\n")
 f.write("WIDTH = 8;\n")
 f.write("ADDRESS_RADIX=UNS;\nDATA_RADIX=HEX;\nCONTENT BEGIN\n")
-#f.write("[0:499999]: 00;\n")
+f.write("[0:49999]: 00;\n")
 
 for i in range (len(Image)):
     f.write(str(i)+": "+ToHex(Image[i])+";\n")

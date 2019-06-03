@@ -17,7 +17,7 @@ M2 = 4 #First Memory Location of Destination Image
 M3 = 5 #Last Memory Location of Original Image
 M4 = 6 #Memory Location containing width of original image
 
-f = open("Inst_mem.txt", "w+")
+f = open("Inst_mem_test.mem", "w+")
 
 def Print(code):
     global f
@@ -26,15 +26,16 @@ def Print(code):
     #print (count, end=" ")
     
     print ("    memory[",count,"] <=32'b",end='')
-    f.write("    memory[")
-    f.write(str(count))
-    f.write("]   = 32'b")
+    #f.write("    memory[")
+    #f.write(str(count))
+    #f.write("]   = 32'b")
     for i in code:
         print (i, end="")
         f.write(str(i))
         
     print ()
-    f.write(';\n')
+    #f.write(';\n')
+    f.write('\n')
     count+=1
     return
 

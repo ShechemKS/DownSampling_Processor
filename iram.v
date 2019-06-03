@@ -6,7 +6,8 @@ module iram(	input clock, im_r,
 	reg [31:0] current_instruction;
 	
 	initial begin
-		//$readmemb("Inst_mem.mem", memory);
+		$readmemb("Inst_mem.mem", memory);
+		/*
     memory[0]   = 32'b00100111110000000000000000000000;
     memory[1]   = 32'b00111000000000000000000000000011;
     memory[2]   = 32'b01100100100000000000000000000000;
@@ -94,7 +95,7 @@ module iram(	input clock, im_r,
     memory[84]   = 32'b10000001000000000000000000000000;
     memory[85]   = 32'b11000000000000000000000001000110;
     memory[86]   = 32'b00011000000000000000000000000000;
-
+*/
 	end
 	
 	always @(posedge clock) begin
