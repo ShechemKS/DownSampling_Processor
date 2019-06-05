@@ -4,25 +4,25 @@ import cv2 as cv
 import numpy as np
 import matplotlib.pyplot as plt
 
-f = open("7.hex", "r")
-length = 116//2
-width = 68//2
+f = open("Recieved_Memory.hex", "r")
+depth = 68//2
+line_width = 116//2
 
-total_length = length*width
+total_length = depth*line_width
 lines = f.readlines()
 
 image_decoded = np.zeros((15,15))
 vector = []
-i=10000
+i=135002
 for j in range (total_length):
     a = lines[i+j][9:11]
     #print (a)
     a = '0x'+a
     pixel = int(a.encode(),16)
     vector.append(pixel)
-
+f.close()
 vector = np.array(vector)
-vector = vector.reshape((width,length))
+vector = vector.reshape((depth,line_width))
 vector = vector.astype('uint8')
 plt.figure(0)
 plt.imshow(vector)
@@ -30,18 +30,20 @@ print (vector)
 
 
 Image = cv.imread('Ironman.jpg',0)
-Image2 = cv.resize(Image,(length*2,width*2))
-Image3 = np.zeros([width, length], dtype = 'uint8')
-Image3 = cv.pyrDown(Image2, dstsize = (length,width)) 
+Image2 = cv.resize(Image,(line_width*2,depth*2))
+Image4 = cv.resize(Image, (line_width, depth))
+#Image3 = np.zeros([width, length], dtype = 'uint8')
+Image3 = cv.pyrDown(Image2, dstsize = (line_width,depth))
+print (Image3)
 
-mse = ((vector - Image3)**2).mean()
+mse = np.sqrt(((vector - Image3)**2).mean())
 print (mse)
 
 #Image = cv.resize(Image,(14,14))
-plt.figure(1)
-plt.imshow(Image2)
+
 plt.figure(2)
 plt.imshow(Image3)
+
 plt.show()
 
 '''

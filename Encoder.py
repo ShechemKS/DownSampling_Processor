@@ -357,8 +357,8 @@ def ToHex_Long(pixel):
     return x
 
 def DataEncoder(Image):
-    length = len(Image[0])
-    width = len(Image)
+    line_width = len(Image[0])
+    depth = len(Image)
 
     f = open("Const_Mem.mif", "w+")
     f.write("DEPTH = 8;\n") #CRAM Depth is 8 bits - needs only 3 bits to get the reference
@@ -368,8 +368,8 @@ def DataEncoder(Image):
 
     f.write("3: 00000;\n") #First address of source image
     f.write("4: "+ToHex_Long(135000)+";\n") #First address of destination Image
-    f.write("5: "+ToHex_Long(length*width-1)+";\n") #Last address of source image
-    f.write("6: "+ToHex_Long(width)+";\n") #Width of a Line
+    f.write("5: "+ToHex_Long(depth*line_width-1)+";\n") #Last address of source image
+    f.write("6: "+ToHex_Long(line_width)+";\n") #Width of a Line
     f.write("END;\n")
     f.close()
     return
@@ -407,7 +407,7 @@ def ImageEncoder(Image):
 parser = argparse.ArgumentParser("Initialize Memory for Image Downsampler")
 parser.add_argument('Image', default = "Ironman.jpg",
                     help = "Select the image to be downsampled")
-parser.add_argument("-size", nargs = 2, type = int, metavar = ('width', 'length'),
+parser.add_argument("-size", nargs = 2, type = int, metavar = ('line_width', 'depth'),
                     help = "Shape of Image to be downsampled. Will be resized before downsampling. Default is the original Image size")
 
 args = parser.parse_args()

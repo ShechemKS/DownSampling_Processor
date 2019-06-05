@@ -1,5 +1,5 @@
 module slowclock(inclk,switch_clock,outclk);
-	parameter max = 25'd500;
+	parameter max = 25'd50;
 	input inclk;
 	input [1:0] switch_clock;
 	output reg outclk = 0;
