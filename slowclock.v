@@ -1,4 +1,4 @@
-module slowclock(inclk,switch_clock,outclk);
+module slowclock(inclk, switch_clock, outclk);
 	parameter max = 25'd50;
 	input inclk;
 	input [1:0] switch_clock;

@@ -11,8 +11,7 @@ module Processor(	input clock,
 						output [9:0] pc_out,
 						output [19:0] mar_dm,
 						output [2:0] mar_cm,
-						output end_process,
-						output [17:0] c);
+						output end_process);
 						
 	
 	wire [2:0] alu_op;
@@ -27,15 +26,10 @@ module Processor(	input clock,
 	wire [31:0] ir_bout; 
 		
 	wire [3:0] c_en;
-	wire [2:0] a_en, b_en;//MAR_Data;
+	wire [2:0] a_en, b_en;
 	wire [4:0] inc_en;
 	wire [3:0] mem_en;
-	wire [8:0] MAR_Data;
-	wire [8:0] AC_Data;
-	
-	assign c[8:0] = AC_Data;
-	assign c[17:9] = MAR_Data;
-	
+		
 	wire [31:0] abus_out, bbus_out;
 	wire [5:0] rst, dec_out; 
 	
@@ -99,7 +93,6 @@ module Processor(	input clock,
 					.abus_en(a_en), 
 					.cbus_en(c_en), 
 					.abus_in(ac_out),
-					.dat(AC_Data),
 					.dm_in(dm_in));
 					
 	ir   ir_r(	.im_out(im_out), 
@@ -121,11 +114,9 @@ module Processor(	input clock,
 					.dm_addr(mar_dm), 
 					.abus_in(mar_out), 
 					.cm_addr(mar_cm),
-					.dat(MAR_Data),
 					.cm_r(mem_en[2]));
 	
-	BusA bus_a(	//.clock(clock), 
-					.abus_en(a_en), 
+	BusA bus_a(	.abus_en(a_en), 
 					.ir(ir_aout), 
 					.mar(mar_out), 
 					.sor(sor_out), 
@@ -134,8 +125,7 @@ module Processor(	input clock,
 					.ac(ac_out), 
 					.abus_out(abus_out));
 					
-	BusB bus_b(	//.clock(clock), 
-					.bbus_en(b_en), 
+	BusB bus_b(	.bbus_en(b_en), 
 					.reg1(reg1_out), 
 					.reg2(reg2_out), 
 					.reg3(reg3_out), 
@@ -145,7 +135,6 @@ module Processor(	input clock,
 	alu  alu1(	.abus_out(abus_out), 
 					.bbus_out(bbus_out), 
 					.alu_op(alu_op), 
-					//.clock(clock), 
 					.cbus_in(alu_out), 
 					.n(n), 
 					.z(z));

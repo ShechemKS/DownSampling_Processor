@@ -1,7 +1,6 @@
 
 State Machine - |top_processor|main_control:mc1|p_stat
-Name p_stat.finish p_stat.transmit p_stat.process p_stat.receive 
-p_stat.receive 0 0 0 0 
-p_stat.process 0 0 1 1 
-p_stat.transmit 0 1 0 1 
-p_stat.finish 1 0 0 1 
+Name p_stat.receive p_stat.finish p_stat.process 
+p_stat.receive 0 0 0 
+p_stat.process 1 0 1 
+p_stat.finish 1 1 0 

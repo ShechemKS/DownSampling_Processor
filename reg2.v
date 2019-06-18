@@ -8,15 +8,7 @@ module reg2(	input [31:0] cbus_out,
 	initial begin
 		data = 0;
 	end
-	/*
-	reg [31:0] b_out = 0;
 	
-	always @(posedge clock)
-		begin 
-			if (bbus_en == 3'b101)
-				b_out <= data;
-		end 
-	*/
 	always @(negedge clock)
 		begin
 			if (cbus_en == 4'b0101)

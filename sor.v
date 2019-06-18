@@ -9,15 +9,7 @@ module sor(	input [31:0] cbus_out,
 	initial begin
 		data = 0;
 	end
-	/*
-	reg [31:0] abus;
 	
-	always @(posedge clock)
-		begin 
-			if (abus_en == 3'b001)
-				abus <= data;
-		end
-		*/
 	always @(negedge clock)
 		begin
 			if (rst)

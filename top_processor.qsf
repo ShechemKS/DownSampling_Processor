@@ -50,12 +50,7 @@ set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_location_assignment PIN_G12 -to rx
-set_location_assignment PIN_G9 -to tx
 set_location_assignment PIN_Y2 -to clock
-set_location_assignment PIN_M23 -to rd_clr
-set_location_assignment PIN_AB28 -to start_process
-set_location_assignment PIN_AC28 -to start_transmit
 set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
 set_global_assignment -name QIP_FILE dram.qip
 set_global_assignment -name VERILOG_FILE top_processor.v
@@ -79,32 +74,14 @@ set_global_assignment -name VERILOG_FILE alu.v
 set_global_assignment -name VERILOG_FILE ac.v
 set_global_assignment -name VERILOG_FILE tb.v
 set_global_assignment -name VERILOG_FILE slowclock.v
-set_location_assignment PIN_G18 -to clk
-set_location_assignment PIN_H15 -to mar_ac_disp[17]
-set_location_assignment PIN_G16 -to mar_ac_disp[16]
-set_location_assignment PIN_G15 -to mar_ac_disp[15]
-set_location_assignment PIN_F15 -to mar_ac_disp[14]
-set_location_assignment PIN_H17 -to mar_ac_disp[13]
-set_location_assignment PIN_J16 -to mar_ac_disp[12]
-set_location_assignment PIN_H16 -to mar_ac_disp[11]
-set_location_assignment PIN_J15 -to mar_ac_disp[10]
-set_location_assignment PIN_G17 -to mar_ac_disp[9]
-set_location_assignment PIN_J17 -to mar_ac_disp[8]
-set_location_assignment PIN_H19 -to mar_ac_disp[7]
-set_location_assignment PIN_J19 -to mar_ac_disp[6]
-set_location_assignment PIN_E18 -to mar_ac_disp[5]
-set_location_assignment PIN_G19 -to mar_ac_disp[0]
-set_location_assignment PIN_F19 -to mar_ac_disp[1]
-set_location_assignment PIN_E19 -to mar_ac_disp[2]
-set_location_assignment PIN_F18 -to mar_ac_disp[4]
-set_location_assignment PIN_F21 -to mar_ac_disp[3]
-set_location_assignment PIN_E21 -to pc_disp[0]
-set_location_assignment PIN_E22 -to pc_disp[1]
-set_location_assignment PIN_E25 -to pc_disp[2]
-set_location_assignment PIN_E24 -to pc_disp[3]
-set_location_assignment PIN_H21 -to pc_disp[4]
-set_location_assignment PIN_G20 -to pc_disp[5]
-set_location_assignment PIN_G22 -to pc_disp[6]
-set_location_assignment PIN_F17 -to pc_disp[7]
 set_global_assignment -name QIP_FILE C_ram.qip
+set_location_assignment PIN_F15 -to s0
+set_location_assignment PIN_G15 -to s1
+set_location_assignment PIN_G16 -to s2
+set_location_assignment PIN_H15 -to s3
+set_location_assignment PIN_E21 -to endProcess
+set_parameter -name CYCLONEII_SAFE_WRITE RESTRUCTURE
+set_global_assignment -name TIMING_ANALYZER_MULTICORNER_ANALYSIS ON
+set_global_assignment -name SMART_RECOMPILE ON
+set_location_assignment PIN_AB28 -to start_process
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

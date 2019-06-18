@@ -4,19 +4,12 @@ module dstr(	input [31:0] cbus_out,
 					input rst, inc_en, clock,
 					output wire [31:0] abus_in);
 
-	//reg [31:0] abus;
 	reg [31:0] data;
 	
 	initial begin
 		data = 0;
 	end
-	/*
-	always @(posedge clock)
-		begin 
-			if (abus_en == 3'b010)
-				abus <= data;
-		end
-	*/
+	
 	always @(negedge clock)
 		begin 
 			if (rst)

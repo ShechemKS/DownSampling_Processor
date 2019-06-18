@@ -171,9 +171,9 @@ endmodule
 // Retrieval info: CONNECT: @wren_a 0 0 0 0 wren 0 0 0 0
 // Retrieval info: CONNECT: q 0 0 8 0 @q_a 0 0 8 0
 // Retrieval info: GEN_FILE: TYPE_NORMAL dram.v TRUE
-// Retrieval info: GEN_FILE: TYPE_NORMAL dram.inc FALSE
-// Retrieval info: GEN_FILE: TYPE_NORMAL dram.cmp FALSE
-// Retrieval info: GEN_FILE: TYPE_NORMAL dram.bsf FALSE
-// Retrieval info: GEN_FILE: TYPE_NORMAL dram_inst.v FALSE
+// Retrieval info: GEN_FILE: TYPE_NORMAL dram.inc TRUE
+// Retrieval info: GEN_FILE: TYPE_NORMAL dram.cmp TRUE
+// Retrieval info: GEN_FILE: TYPE_NORMAL dram.bsf TRUE
+// Retrieval info: GEN_FILE: TYPE_NORMAL dram_inst.v TRUE
 // Retrieval info: GEN_FILE: TYPE_NORMAL dram_bb.v TRUE
 // Retrieval info: LIB_FILE: altera_mf

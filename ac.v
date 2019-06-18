@@ -5,26 +5,15 @@ module ac(	input [31:0] cbus_out,
 				input [2:0] abus_en,
 				input [3:0] cbus_en,
 				output wire [31:0] abus_in,
-				output wire [8:0] dat,
 				output wire [7:0] dm_in);
 	
 	reg [31:0] data = 0;
-	//reg [31:0] abus = 0;
-	//reg [7:0] dm = 0;
-	assign dat = data[8:0];
 	
+		
 	initial begin
 		data = 0;
 	end
-	/*
-	always @(posedge clock)
-		begin
-			if (abus_en == 3'b011)
-				abus <= data;
-			if (dm_wr)
-				dm <= data[7:0];
-		end
-	*/	
+	
 	always @(negedge clock)
 		begin
 			if (rst)
@@ -39,4 +28,5 @@ module ac(	input [31:0] cbus_out,
 		
 	assign abus_in = data; 
 	assign dm_in = data[7:0];
+	
 endmodule 

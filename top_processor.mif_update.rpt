@@ -1,0 +1,96 @@
+MIF/HEX Update report for top_processor
+Wed Jun 19 02:44:22 2019
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. MIF/HEX Update Summary
+  3. MIF/HEX Update Processed Files
+  4. MIF/HEX Update Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++---------------------------------------------------------------+
+; MIF/HEX Update Summary                                        ;
++-----------------------+---------------------------------------+
+; MIF/HEX Update Status ; Successful - Wed Jun 19 02:44:22 2019 ;
+; Revision Name         ; top_processor                         ;
+; Top-level Entity Name ; top_processor                         ;
+; Family                ; Cyclone IV E                          ;
+; Device                ; EP4CE115F29C7                         ;
++-----------------------+---------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; MIF/HEX Update Processed Files                                                                                                                                         ;
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; File Name                                                                                                                                                              ;
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/Processor_Reloaded_Beta/Processor_Reloaded_Beta/Const_Mem.mif                             ;
+; D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/Processor_Reloaded_Beta/Processor_Reloaded_Beta/Data_Mem.mif                              ;
+; D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/Processor_Reloaded_Beta/Processor_Reloaded_Beta/db/top_processor.ram0_iram_37120d.hdl.mif ;
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------+
+; MIF/HEX Update Messages ;
++-------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime MIF/HEX Update
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+    Info: Processing started: Wed Jun 19 02:44:14 2019
+Info: Command: quartus_cdb top_processor -c top_processor --update_mif
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Warning (113031): 4 out of 8 addresses are reinitialized. The latest initialized data will replace the existing data. There are 4 warnings found, and 4 warnings are reported. File: D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/Processor_Reloaded_Beta/Processor_Reloaded_Beta/Const_Mem.mif Line: 1
+    Warning (113030): Memory Initialization File address 3 is reinitialized File: D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/Processor_Reloaded_Beta/Processor_Reloaded_Beta/ Line: 7
+    Warning (113030): Memory Initialization File address 4 is reinitialized File: D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/Processor_Reloaded_Beta/Processor_Reloaded_Beta/ Line: 8
+    Warning (113030): Memory Initialization File address 5 is reinitialized File: D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/Processor_Reloaded_Beta/Processor_Reloaded_Beta/ Line: 9
+    Warning (113030): Memory Initialization File address 6 is reinitialized File: D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/Processor_Reloaded_Beta/Processor_Reloaded_Beta/ Line: 10
+Warning (113031): 65536 out of 270000 addresses are reinitialized. The latest initialized data will replace the existing data. There are 65536 warnings found, and 10 warnings are reported. File: D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/Processor_Reloaded_Beta/Processor_Reloaded_Beta/Data_Mem.mif Line: 1
+    Warning (113030): Memory Initialization File address 0 is reinitialized File: D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/Processor_Reloaded_Beta/Processor_Reloaded_Beta/ Line: 7
+    Warning (113030): Memory Initialization File address 1 is reinitialized File: D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/Processor_Reloaded_Beta/Processor_Reloaded_Beta/ Line: 8
+    Warning (113030): Memory Initialization File address 2 is reinitialized File: D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/Processor_Reloaded_Beta/Processor_Reloaded_Beta/ Line: 9
+    Warning (113030): Memory Initialization File address 3 is reinitialized File: D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/Processor_Reloaded_Beta/Processor_Reloaded_Beta/ Line: 10
+    Warning (113030): Memory Initialization File address 4 is reinitialized File: D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/Processor_Reloaded_Beta/Processor_Reloaded_Beta/ Line: 11
+    Warning (113030): Memory Initialization File address 5 is reinitialized File: D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/Processor_Reloaded_Beta/Processor_Reloaded_Beta/ Line: 12
+    Warning (113030): Memory Initialization File address 6 is reinitialized File: D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/Processor_Reloaded_Beta/Processor_Reloaded_Beta/ Line: 13
+    Warning (113030): Memory Initialization File address 7 is reinitialized File: D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/Processor_Reloaded_Beta/Processor_Reloaded_Beta/ Line: 14
+    Warning (113030): Memory Initialization File address 8 is reinitialized File: D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/Processor_Reloaded_Beta/Processor_Reloaded_Beta/ Line: 15
+    Warning (113030): Memory Initialization File address 9 is reinitialized File: D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/Processor_Reloaded_Beta/Processor_Reloaded_Beta/ Line: 16
+Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/Processor_Reloaded_Beta/Processor_Reloaded_Beta/db/top_processor.ram0_iram_37120d.hdl.mif" contains "don't care" values -- overwriting them with 0s
+Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/Processor_Reloaded_Beta/Processor_Reloaded_Beta/db/top_processor.ram0_iram_37120d.hdl.mif" contains "don't care" values -- overwriting them with 0s
+Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/Processor_Reloaded_Beta/Processor_Reloaded_Beta/db/top_processor.ram0_iram_37120d.hdl.mif" contains "don't care" values -- overwriting them with 0s
+Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/Processor_Reloaded_Beta/Processor_Reloaded_Beta/db/top_processor.ram0_iram_37120d.hdl.mif" contains "don't care" values -- overwriting them with 0s
+Info (39024): Processed the following Memory Initialization File(s)
+    Info (39025): Processed Memory Initialization File D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/Processor_Reloaded_Beta/Processor_Reloaded_Beta/Const_Mem.mif File: D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/Processor_Reloaded_Beta/Processor_Reloaded_Beta/Const_Mem.mif Line: 0
+    Info (39025): Processed Memory Initialization File D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/Processor_Reloaded_Beta/Processor_Reloaded_Beta/Data_Mem.mif File: D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/Processor_Reloaded_Beta/Processor_Reloaded_Beta/Data_Mem.mif Line: 0
+    Info (39025): Processed Memory Initialization File D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/Processor_Reloaded_Beta/Processor_Reloaded_Beta/db/top_processor.ram0_iram_37120d.hdl.mif File: D:/Shechem/Documents/OneDrive/Documents/Semester 5/Circuit and System Design/Processor_Reloaded_Beta/Processor_Reloaded_Beta/db/top_processor.ram0_iram_37120d.hdl.mif Line: 0
+Info: Quartus Prime MIF/HEX Update was successful. 0 errors, 21 warnings
+    Info: Peak virtual memory: 4861 megabytes
+    Info: Processing ended: Wed Jun 19 02:44:22 2019
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:08
+
+

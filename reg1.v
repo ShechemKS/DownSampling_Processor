@@ -5,17 +5,11 @@ module reg1(	input [31:0] cbus_out,
 					output wire [31:0] bbus_in);
 					
 	reg [31:0] data = 0;
-	//reg [31:0] b_out = 0;
+	
 	initial begin
 		data = 0;
 	end
-	/*
-	always @(posedge clock)
-		begin 
-			if (bbus_en == 3'b100)
-				b_out <= data;
-		end 
-	*/
+	
 	always @(negedge clock)
 		begin
 			if (cbus_en == 4'b0100)
