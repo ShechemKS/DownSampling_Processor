@@ -34,7 +34,7 @@ module top_processor(	input wire clock,
 	wire slow_clk;
 	wire e;
 	
-	assign clk = slow_clk;
+	assign clk = clock;
 	assign mar_ac_disp = c;
 	assign pc_disp= pc_out;
 	
@@ -127,15 +127,15 @@ module top_processor(	input wire clock,
 								.cm_out(cm_out)); 
 */
 	C_ram 		cram1(.address(mar_cm),
-							.clock(slow_clk),
+							.clock(clock),
 							.rden(cm_r),
 							.q(cm_out));				
-	iram  		iram1(	.clock(slow_clk), 
+	iram  		iram1(	.clock(clock), 
 								.im_r(im_r), 
 								.addr(pc_out), 
 								.instr_out(im_out)); 
 					
-	Processor 	cpu (		.clock(slow_clk), 
+	Processor 	cpu (		.clock(clock), 
 								.cm_out(cm_out), 
 								.dm_out(dm_processor), 
 								.im_out(im_out), 
@@ -152,13 +152,13 @@ module top_processor(	input wire clock,
 								.c(c));
 								
 	dram	d_ram( 	.address(mar_dm),
-						.clock(slow_clk),
+						.clock(clock),
 						.data(ac_out),
 						.wren(dm_wr),
 						.rden(dm_r), 
 						.q(dm_processor));					
 
-	main_control mc1(		.clock(slow_clk), 
+	main_control mc1(		.clock(clock), 
 								.en_com(en_com),
 								.end_receive(end_receive), 
 								.end_process(end_process), 

@@ -403,27 +403,27 @@ def ImageEncoder(Image):
     f.write("END")
     f.close()
     return
-
+'''
 parser = argparse.ArgumentParser("Initialize Memory for Image Downsampler")
 parser.add_argument('Image', default = "Ironman.jpg",
                     help = "Select the image to be downsampled")
-parser.add_argument("-size", nargs = 2, type = int, metavar = ('line_width', 'depth'),
+parser.add_argument("-size", nargs = 2, type = int, metavar = ('line_width', 'depth'), default = [256,256],
                     help = "Shape of Image to be downsampled. Will be resized before downsampling. Default is the original Image size")
 
 args = parser.parse_args()
-
-Image = cv.imread(args.Image, 0)
+'''
+Image = cv.imread("Image.jpg")
 print ("Loaded Image")
-if (args.size):
-    Image = cv.resize(Image, (args.size[0],args.size[1]))
-    print ("Resized Image to ", args.size)
+Image = cv.resize(Image, (256,256))
+print ("Resized Image to 256, 256")
+red,blue,green = cv.split(Image)
 
 print ("Initializing Instruction Memory")
 f = open("Inst_mem.mem", "w+")
 InstructionEncoder()
 f.close()
 print ("Initializing Constant Memory")
-DataEncoder(Image)
+DataEncoder(red)
 print ("Initializing Data Memory")
-ImageEncoder(Image)
+ImageEncoder(red)
 print ("All memories initialized. Compile and run downsampler")

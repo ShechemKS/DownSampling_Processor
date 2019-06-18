@@ -1,5 +1,5 @@
 |top_processor
-clock => clock.IN1
+clock => clock.IN6
 data_from_pc => ~NO_FANOUT~
 start_process => process_switch_buffer.OUTPUTSELECT
 start_process => process_switch_buffer.OUTPUTSELECT
@@ -43,7 +43,7 @@ mar_ac_disp[14] <= Processor:cpu.c
 mar_ac_disp[15] <= Processor:cpu.c
 mar_ac_disp[16] <= Processor:cpu.c
 mar_ac_disp[17] <= Processor:cpu.c
-clk <= slow_clk.DB_MAX_OUTPUT_PORT_TYPE
+clk <= clock.DB_MAX_OUTPUT_PORT_TYPE
 pc_disp[0] <= pc_out[0].DB_MAX_OUTPUT_PORT_TYPE
 pc_disp[1] <= pc_out[1].DB_MAX_OUTPUT_PORT_TYPE
 pc_disp[2] <= pc_out[2].DB_MAX_OUTPUT_PORT_TYPE
